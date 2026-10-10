@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Portal</title>
+</head>
+
+<body>
+
+    <header id="home">
+        <h1>Student Learning Portal</h1>
+        <p>Welcome to my <b>Web Development</b> learning portal.</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#home">Home</a> 
+        <a href="#courses">Courses</a> 
+        <a href="#projects">Projects</a> 
+        <a href="#registration">Registration</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>About My Learning</h2>
+            <p>
+                I am learning <strong>HTML</strong>,
+                <strong>CSS</strong>, JavaScript and React.
+            </p>
+            <p>
+                My goal is to become a
+                <i>Software Developer</i>
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Web Development</h2>
+
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                alt="Laptop showing web development code"
+                width="400">
+        </section>
+
+        <hr>
+
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>My Learning Steps</h2>
+
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+                <li>Build Projects</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Technology Categories</h2>
+
+            <ul>
+                <li>Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+
+                <li>Backend
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Course Table</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>1 Week</td>
+                    <td>Completed</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>2 Weeks</td>
+                    <td>Learning</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>4 Weeks</td>
+                    <td>Learning</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <article id="projects">
+            <h2>My Projects</h2>
+
+            <p>
+                I am creating web development projects to
+                improve my practical skills.
+            </p>
+
+            <a href="https://github.com/" target="_blank">
+                Visit GitHub
+            </a>
+        </article>
+
+        <hr>
+
+        <section id="registration">
+            <h2>Student Registration</h2>
+
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <br><br>
+
+                <label>Gender:</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+
+                <br><br>
+
+                <label for="course">Select Course:</label>
+
+                <select id="course" name="course">
+                    <option value="">Select a course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="react">React</option>
+                </select>
+
+                <br><br>
+
+                <label for="address">Address:</label>
+                <br>
+
+                <textarea id="address" name="address"
+                    rows="4" cols="40"></textarea>
+
+                <br><br>
+
+                <p>Select your skills:</p>
+
+                <input type="checkbox" id="skill-html"
+                    name="skills" value="html">
+                <label for="skill-html">HTML</label>
+
+                <input type="checkbox" id="skill-css"
+                    name="skills" value="css">
+                <label for="skill-css">CSS</label>
+
+                <input type="checkbox" id="skill-js"
+                    name="skills" value="javascript">
+                <label for="skill-js">JavaScript</label>
+
+                <br><br>
+
+                <input type="checkbox" id="terms"
+                    name="terms" value="agreed" required>
+                <label for="terms">
+                    I agree to the terms and conditions
+                </label>
+
+                <br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Manish Saini</p>
+        <p>
+            Email: manishsaini2570@gmail.com
+        </p>
+    </footer>
+
+</body>
+
+</html>
